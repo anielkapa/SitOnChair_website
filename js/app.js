@@ -6,7 +6,7 @@ document.addEventListener("DOMContentLoaded", function() {
   let liMainList = navI.children[0].children;
 
   for (let i = 0; i < liMainList.length; i++) {
-    liMainList[i].addEventListener("mouseenter", function(event) {
+    liMainList[i].addEventListener("mouseover", function(event) {
       liMainList[i].children[0].style.display = "flex";
       liMainList[i].style.color = "#27C7AB";
 
